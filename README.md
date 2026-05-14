@@ -28,6 +28,13 @@ API robusta diseñada para la gestión y administración de candidatos en depart
 
 ### 2. Variables de Entorno
 Crea un archivo `.env` en la raíz del proyecto. Puedes basarte en el archivo de ejemplo:
+# Levantar servicios
+docker-compose up --build
+# Detener servicios
+docker-compose down
+Despliegue (Fly.io)
+Este repositorio está configurado para desplegarse en Fly.io mediante el archivo fly.toml.
+fly deploy
 
 ```bash
 cp .env.example .env
